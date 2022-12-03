@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@500&display=swap');
+body{
+    background-color: rgb(5, 1, 20);
+}
+main{
+
+    width: 95%;
+    margin-inline: auto;
+    font-family: 'Roboto', sans-serif;
+}
+.container{    
+    border: none;
+    border-radius: 15px;
+    padding: 1rem;
+    background-color: #a79f9f38;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 1rem 0;
+}
+label{
+    font-size: 1.3rem;
+}
+.forms{
+    margin-top: 1rem;
+    
+}
+.input-control{
+    width: 100%;
+    margin-top: 9px;
+    margin-bottom: 1rem;
+    padding: 7px 20px;
+    border-bottom: 1px solid #2fa70b;
+    background-color: transparent;
+}
+.submit{
+    border-radius: 5px;
+    padding: 9px 1rem;
+    margin: 1rem 0;
+    border: 1px solid #28a745;
+    background-color: #28a745;
+    cursor: pointer;
+}
+.submit:hover{
+    border: 1px solid #005e16;
+    background-color: #005e16;
+    transition: .15s;
+}
+.txt{
+    display: flex;
+    gap: 1rem;
+}
+span{
+    color: red;
+    padding-top: 1rem;
+}
+p,label,.submit,.input-control,h1{
+    color: #f8f9fa;
+}
+a{
+    text-decoration: none;
+    color: #28a745;
+}
+@media screen and (min-width: 760px) and (max-width:900px){
+    .container{
+        width: 35rem;
+        margin-inline: auto;
+    }
+}
+@media(min-width: 901px){
+    .container{
+        width: 40rem;
+        margin-inline: auto;
+    }
+}                       
